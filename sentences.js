@@ -916,8 +916,8 @@ const sentenceData = {
       isFinal: false,
       korean: '솔직히 말해서',
       chinese: {
-        hanzi: ['不', '瞒', '你', '说'],
-        pinyin: ['bù', 'mán', 'nǐ', 'shuō'],
+        hanzi: ['不瞒你说'],
+        pinyin: ['bù mán nǐ shuō'],
       },
     },
     {
@@ -926,8 +926,8 @@ const sentenceData = {
       isFinal: false,
       korean: '솔직히 말해서, 나는 가고 싶어.',
       chinese: {
-        hanzi: ['不', '瞒', '你', '说', '我', '想', '去'],
-        pinyin: ['bù', 'mán', 'nǐ', 'shuō', 'wǒ', 'xiǎng', 'qù'],
+        hanzi: ['不瞒你说', '我', '想', '去'],
+        pinyin: ['bù mán nǐ shuō', 'wǒ', 'xiǎng', 'qù'],
       },
     },
     {
@@ -936,8 +936,8 @@ const sentenceData = {
       isFinal: false,
       korean: '솔직히 말해서, 나는 가고 싶지 않아.',
       chinese: {
-        hanzi: ['不', '瞒', '你', '说', '我', '不', '想', '去'],
-        pinyin: ['bù', 'mán', 'nǐ', 'shuō', 'wǒ', 'bù', 'xiǎng', 'qù'],
+        hanzi: ['不瞒', '你', '说', '我', '不', '想', '去'],
+        pinyin: ['bù mán', 'nǐ', 'shuō', 'wǒ', 'bù', 'xiǎng', 'qù'],
       },
     },
     {
@@ -947,7 +947,7 @@ const sentenceData = {
       korean: '솔직히 말해서, 나는 별로 가고 싶지 않아.',
       chinese: {
         hanzi: ['不', '瞒', '你', '说', '我', '不', '太', '想', '去'],
-        pinyin: ['bù', 'mán', 'nǐ', 'shuō', 'wǒ', 'bù', 'tài', 'xiǎng', 'qù'],
+        pinyin: ['bù', 'mán', 'nǐ', 'shuō', 'wǒ', 'bú', 'tài', 'xiǎng', 'qù'],
       },
     },
     {
@@ -956,7 +956,7 @@ const sentenceData = {
       isFinal: true,
       korean: '솔직히 말해서, 나는 사실 별로 가고 싶지 않아.',
       chinese: {
-        hanzi: ['不', '瞒', '你', '说', '我', '不', '其实', '太', '想', '去'],
+        hanzi: ['不', '瞒', '你', '说', '我', '其实', '不', '太', '想', '去'],
         pinyin: [
           'bù',
           'mán',
@@ -964,7 +964,7 @@ const sentenceData = {
           'shuō',
           'wǒ',
           'qíshí',
-          'bù',
+          'bú',
           'tài',
           'xiǎng',
           'qù',

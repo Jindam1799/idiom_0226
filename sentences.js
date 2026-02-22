@@ -780,7 +780,7 @@ const sentenceData = {
       id: 'sentence11',
       level: 4,
       isFinal: true,
-      korean: '공부는 꾸준히 해야 하고, 중간에 포기하면 안 된다.',
+      korean: '먼저 해보자, 되는 데까지 하는 거지.',
       chinese: {
         hanzi: ['先', '干', '着', '吧', '干', '到', '哪儿', '算哪儿'],
         pinyin: ['xiān', 'gàn', 'zhe', 'ba', 'gàn', 'dào', 'nǎr', 'suàn nǎr'],

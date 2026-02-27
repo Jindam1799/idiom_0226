@@ -1508,6 +1508,553 @@ const sentenceData = {
       },
     },
   ],
+  week3: [
+    // 1번
+    {
+      id: 'sentence21',
+      level: 1,
+      isFinal: false,
+      korean: '너는 알아.',
+      chinese: {
+        hanzi: ['你', '知道'],
+        pinyin: ['nǐ', 'zhīdao'],
+      },
+    },
+    {
+      id: 'sentence21',
+      level: 2,
+      isFinal: false,
+      korean: '너는 다 알아.',
+      chinese: {
+        hanzi: ['你', '都', '知道'],
+        pinyin: ['nǐ', 'dōu', 'zhīdao'],
+      },
+    },
+    {
+      id: 'sentence21',
+      level: 3,
+      isFinal: false,
+      korean: '상황은 네가 다 알아. (= 상황을 네가 다 알고 있다)',
+      chinese: {
+        hanzi: ['情况', '你', '都', '知道'],
+        pinyin: ['qíngkuàng', 'nǐ', 'dōu', 'zhīdao'],
+      },
+    },
+    {
+      id: 'sentence21',
+      level: 4,
+      isFinal: false,
+      korean:
+        '상황은 네가 다 알고 있으니까, 알아서 처리해. (= 상황을 네가 다 알고 있으니까, 알아서 처리해.)',
+      chinese: {
+        hanzi: ['情况', '你', '都', '知道', '看', '着', '办', '吧'],
+        pinyin: ['qíngkuàng', 'nǐ', 'dōu', 'zhīdao', 'kàn', 'zhe', 'bàn', 'ba'],
+      },
+    },
+    {
+      id: 'sentence21',
+      level: 5,
+      isFinal: true,
+      korean:
+        '상황은 네가 다 알고 있으니까, 네가 그냥 알아서 처리해. (= 상황을 네가 다 알고 있으니까,네가 그냥 알아서 처리해.)',
+      chinese: {
+        hanzi: ['情况', '你', '都', '知道', '你', '就', '看', '着', '办', '吧'],
+        pinyin: [
+          'qíngkuàng',
+          'nǐ',
+          'dōu',
+          'zhīdao',
+          'nǐ',
+          'jiù',
+          'kàn',
+          'zhe',
+          'bàn',
+          'ba',
+        ],
+      },
+    },
+
+    // 2번
+    {
+      id: 'sentence22',
+      level: 1,
+      isFinal: false,
+      korean: '그만하자, 됐다, 그냥 넘어가자',
+      chinese: {
+        hanzi: ['算', '了'],
+        pinyin: ['suàn', 'le'],
+      },
+    },
+    {
+      id: 'sentence22',
+      level: 2,
+      isFinal: false,
+      korean:
+        '그만두려고 한다, 그냥 넘어가려고 한다. (※이땐 한국어로 “~하려고 한다”가 자연스러움)',
+      chinese: {
+        hanzi: ['想', '算', '了'],
+        pinyin: ['xiǎng', 'suàn', 'le'],
+      },
+    },
+    {
+      id: 'sentence22',
+      level: 3,
+      isFinal: false,
+      korean: '그냥 그만두려고 한다, 그냥 넘어가려고 한다',
+      chinese: {
+        hanzi: ['就', '想', '算', '了'],
+        pinyin: ['jiù', 'xiǎng', 'suàn', 'le'],
+      },
+    },
+    {
+      id: 'sentence22',
+      level: 4,
+      isFinal: false,
+      korean: '해결 안 하고 그냥 넘어가려고 해.',
+      chinese: {
+        hanzi: ['没', '解决', '就', '想', '算', '了'],
+        pinyin: ['méi', 'jiějué', 'jiù', 'xiǎng', 'suàn', 'le'],
+      },
+    },
+    {
+      id: 'sentence22',
+      level: 5,
+      isFinal: true,
+      korean: '일은 해결 안 하고 그냥 넘어가려고? 그렇게 간단하지 않아.',
+      chinese: {
+        hanzi: [
+          '事情',
+          '没',
+          '解决',
+          '就',
+          '想',
+          '算',
+          '了',
+          '没',
+          '那么',
+          '便宜',
+        ],
+        pinyin: [
+          'shìqing',
+          'méi',
+          'jiějué',
+          'jiù',
+          'xiǎng',
+          'suàn',
+          'le',
+          'méi',
+          'nàme',
+          'piányi',
+        ],
+      },
+    },
+    // 3번
+    {
+      id: 'sentence23',
+      level: 1,
+      isFinal: false,
+      korean: '이게 아니야.',
+      chinese: {
+        hanzi: ['不', '是', '这', '个'],
+        pinyin: ['bú', 'shì', 'zhè', 'ge'],
+      },
+    },
+    {
+      id: 'sentence23',
+      level: 2,
+      isFinal: false,
+      korean: '얘기하던 건 이게 아니야.',
+      chinese: {
+        hanzi: ['讨论', '的', '不', '是', '这', '个'],
+        pinyin: ['tǎolùn', 'de', 'bú', 'shì', 'zhè', 'ge'],
+      },
+    },
+    {
+      id: 'sentence23',
+      level: 3,
+      isFinal: false,
+      korean: '우리가 얘기하던 건 이게 아니야(아니잖아).',
+      chinese: {
+        hanzi: ['我们', '讨论', '的', '不', '是', '这', '个'],
+        pinyin: ['wǒmen', 'tǎolùn', 'de', 'bú', 'shì', 'zhè', 'ge'],
+      },
+    },
+    {
+      id: 'sentence23',
+      level: 4,
+      isFinal: false,
+      korean: '무슨 소리야, 우리가 얘기하던 건 이게 아니잖아.',
+      chinese: {
+        hanzi: ['哪儿跟哪儿啊', '我们', '讨论', '的', '不', '是', '这', '个'],
+        pinyin: [
+          'nǎr gēn nǎr a',
+          'wǒmen',
+          'tǎolùn',
+          'de',
+          'bú',
+          'shì',
+          'zhè',
+          'ge',
+        ],
+      },
+    },
+    {
+      id: 'sentence23',
+      level: 5,
+      isFinal: true,
+      korean: '솔직히 말해서, 나는 사실 별로 가고 싶지 않아.',
+      korean: '무슨 소리야, 우리가 얘기하던 건 이게 아니잖아.',
+      chinese: {
+        hanzi: [
+          '这',
+          '是',
+          '哪儿跟',
+          '哪儿啊',
+          '我们',
+          '讨论',
+          '的',
+          '不',
+          '是',
+          '这',
+          '个',
+        ],
+        pinyin: [
+          'zhè',
+          'shì',
+          'nǎr gēn',
+          'nǎr a',
+          'wǒmen',
+          'tǎolùn',
+          'de',
+          'bú',
+          'shì',
+          'zhè',
+          'ge',
+        ],
+      },
+    },
+    //14번
+    {
+      id: 'sentence24',
+      level: 1,
+      isFinal: false,
+      korean: '이게 뭐라고.',
+      chinese: {
+        hanzi: ['这', '算', '什么'],
+        pinyin: ['zhè', 'suàn', 'shénme'],
+      },
+    },
+    {
+      id: 'sentence24',
+      level: 2,
+      isFinal: false,
+      korean: '이 정도 돈이 뭐라고.',
+      chinese: {
+        hanzi: ['这', '点', '钱', '算', '什么', '钱'],
+        pinyin: ['zhè', 'diǎn', 'qián', 'suàn', 'shénme', 'qián'],
+      },
+    },
+    {
+      id: 'sentence24',
+      level: 3,
+      isFinal: true,
+      korean: '이 정도 돈이 뭐라고, 내가 쏠게.',
+      chinese: {
+        hanzi: ['这', '点', '钱', '算', '什么', '钱', '我', '请', '客'],
+        pinyin: [
+          'zhè',
+          'diǎn',
+          'qián',
+          'suàn',
+          'shénme',
+          'qián',
+          'wǒ',
+          'qǐng',
+          'kè',
+        ],
+      },
+    },
+    //25번
+    {
+      id: 'sentence25',
+      level: 1,
+      isFinal: false,
+      korean: '예술을 하다.',
+      chinese: {
+        hanzi: ['搞', '艺术'],
+        pinyin: ['gǎo', 'yìshù'],
+      },
+    },
+    {
+      id: 'sentence25',
+      level: 2,
+      isFinal: false,
+      korean: '예술을 할 재목',
+      chinese: {
+        hanzi: ['搞', '艺术', '的', '料'],
+        pinyin: ['gǎo', 'yìshù', 'de', 'liào'],
+      },
+    },
+    {
+      id: 'sentence25',
+      level: 3,
+      isFinal: false,
+      korean: '예술 쪽에 어울리는 사람이 아니다.',
+      chinese: {
+        hanzi: ['不', '是', '搞', '艺术', '的', '料'],
+        pinyin: ['bú', 'shì', 'gǎo', 'yìshù', 'de', 'liào'],
+      },
+    },
+    {
+      id: 'sentence25',
+      level: 4,
+      isFinal: true,
+      korean: '그는 예술 쪽에 어울리는 사람이 아니다.',
+      chinese: {
+        hanzi: ['他', '不', '是', '搞', '艺术', '的', '料'],
+        pinyin: ['tā', 'bú', 'shì', 'gǎo', 'yìshù', 'de', 'liào'],
+      },
+    },
+
+    {
+      id: 'sentence26',
+      level: 1,
+      isFinal: false,
+      korean: '계속 미루다.',
+      chinese: {
+        hanzi: ['拖', '下去'],
+        pinyin: ['tuō', 'xiàqù'],
+      },
+    },
+    {
+      id: 'sentence26',
+      level: 2,
+      isFinal: false,
+      korean: '계속 미루는 건 방법이 아니야.',
+      chinese: {
+        hanzi: ['拖', '下去', '不', '是', '办法'],
+        pinyin: ['tuō', 'xiàqù', 'bú', 'shì', 'bànfǎ'],
+      },
+    },
+    {
+      id: 'sentence26',
+      level: 3,
+      isFinal: false,
+      korean: '이렇게 (계속) 미루는 건 방법이 아니야.',
+      chinese: {
+        hanzi: ['这样', '拖', '下去', '不', '是', '办法'],
+        pinyin: ['zhèyàng', 'tuō', 'xiàqù', 'bú', 'shì', 'bànfǎ'],
+      },
+    },
+    {
+      id: 'sentence26',
+      level: 4,
+      isFinal: true,
+      korean: '내 말은, 이렇게 (계속) 미루는 건 방법이 아니야.',
+      chinese: {
+        hanzi: ['我', '说', '这样', '拖', '下去', '不', '是', '办法'],
+        pinyin: ['wǒ', 'shuō', 'zhèyàng', 'tuō', 'xiàqù', 'bú', 'shì', 'bànfǎ'],
+      },
+    },
+    //27번
+    {
+      id: 'sentence27',
+      level: 1,
+      isFinal: false,
+      korean: '나는 알고 있어.',
+      chinese: {
+        hanzi: ['我', '知道'],
+        pinyin: ['wǒ', 'zhīdao'],
+      },
+    },
+    {
+      id: 'sentence27',
+      level: 2,
+      isFinal: false,
+      korean: '나는 그럴 줄 알았어.',
+      chinese: {
+        hanzi: ['我', '就', '知道'],
+        pinyin: ['wǒ', 'jiù', 'zhīdao'],
+      },
+    },
+    {
+      id: 'sentence27',
+      level: 3,
+      isFinal: false,
+      korean: '나는 성공할 줄 알았어. (= 나는 성공할 거라 예상했어)',
+      chinese: {
+        hanzi: ['我', '就', '知道', '会', '成功'],
+        pinyin: ['wǒ', 'jiù', 'zhīdao', 'huì', 'chénggōng'],
+      },
+    },
+    {
+      id: 'sentence27',
+      level: 4,
+      isFinal: false,
+      korean: '나는 분명 성공할 줄 알았어.',
+      chinese: {
+        hanzi: ['我', '就', '知道', '一定', '会', '成功'],
+        pinyin: ['wǒ', 'jiù', 'zhīdao', 'yídìng', 'huì', 'chénggōng'],
+      },
+    },
+    {
+      id: 'sentence27',
+      level: 5,
+      isFinal: true,
+      korean: '나는 네가 분명 성공할 줄 알았어.',
+      chinese: {
+        hanzi: ['我', '就', '知道', '你', '一定', '会', '成功'],
+        pinyin: ['wǒ', 'jiù', 'zhīdao', 'nǐ', 'yídìng', 'huì', 'chénggōng'],
+      },
+    },
+
+    {
+      id: 'sentence28',
+      level: 1,
+      isFinal: false,
+      korean: '준비해야 한다.',
+      chinese: {
+        hanzi: ['该', '准备'],
+        pinyin: ['gāi', 'zhǔnbèi'],
+      },
+    },
+    {
+      id: 'sentence28',
+      level: 2,
+      isFinal: false,
+      korean: '준비해야 할 것.',
+      chinese: {
+        hanzi: ['该', '准备', '的'],
+        pinyin: ['gāi', 'zhǔnbèi', 'de'],
+      },
+    },
+    {
+      id: 'sentence28',
+      level: 3,
+      isFinal: false,
+      korean: '준비했다.',
+      chinese: {
+        hanzi: ['准备', '了'],
+        pinyin: ['zhǔnbèi', 'le'],
+      },
+    },
+    {
+      id: 'sentence28',
+      level: 4,
+      isFinal: false,
+      korean: '다 준비했다.',
+      chinese: {
+        hanzi: ['都', '准备', '了'],
+        pinyin: ['dōu', 'zhǔnbèi', 'le'],
+      },
+    },
+    {
+      id: 'sentence28',
+      level: 5,
+      isFinal: true,
+      korean: '준비해야 할 건 다 준비했다.',
+      chinese: {
+        hanzi: ['该', '准备', '的', '都', '准备', '了'],
+        pinyin: ['gāi', 'zhǔnbèi', 'de', 'dōu', 'zhǔnbèi', 'le'],
+      },
+    },
+
+    // 4번
+    {
+      id: 'sentence29',
+      level: 1,
+      isFinal: false,
+      korean: '오해구나',
+      chinese: {
+        hanzi: ['是', '误会'],
+        pinyin: ['shì', 'wùhuì'],
+      },
+    },
+    {
+      id: 'sentence29',
+      level: 2,
+      isFinal: false,
+      korean: '알고 보니 오해였구나.',
+      chinese: {
+        hanzi: ['原来', '是', '误会'],
+        pinyin: ['yuánlái', 'shì', 'wùhuì'],
+      },
+    },
+    {
+      id: 'sentence29',
+      level: 3,
+      isFinal: true,
+      korean: '(알고 보니) 오해였구나, 내가 그럴 줄 알았어.',
+      chinese: {
+        hanzi: ['原来', '是', '误会', '我', '说', '呢'],
+        pinyin: ['yuánlái', 'shì', 'wùhuì', 'wǒ', 'shuō', 'ne'],
+      },
+    },
+
+    // 5번
+
+    {
+      id: 'sentence30',
+      level: 1,
+      isFinal: false,
+      korean: '방법을 바꾸다.',
+      chinese: {
+        hanzi: ['换', '个', '办法'],
+        pinyin: ['huàn', 'gè', 'bànfǎ'],
+      },
+    },
+    {
+      id: 'sentence30',
+      level: 2,
+      isFinal: false,
+      korean: '방법을 바꿔서 한번 해보다.',
+      chinese: {
+        hanzi: ['换', '个', '办法', '试试'],
+        pinyin: ['huàn', 'gè', 'bànfǎ', 'shìshi'],
+      },
+    },
+    {
+      id: 'sentence30',
+      level: 3,
+      isFinal: false,
+      korean: '우리 방법을 바꿔서 한번 해보자.',
+      chinese: {
+        hanzi: ['我们', '换', '个', '办法', '试试'],
+        pinyin: ['wǒmen', 'huàn', 'gè', 'bànfǎ', 'shìshi'],
+      },
+    },
+
+    {
+      id: 'sentence30',
+      level: 4,
+      isFinal: false,
+      korean: '아니면 우리 방법을 바꿔서 한번 해볼까?',
+      chinese: {
+        hanzi: ['要不', '我们', '换', '个', '办法', '试试'],
+        pinyin: ['yàobù', 'wǒmen', 'huàn', 'gè', 'bànfǎ', 'shìshi'],
+      },
+    },
+    {
+      id: 'sentence30',
+      level: 5,
+      isFinal: true,
+      korean: '내 생각엔, 아니면 우리 방법을 바꿔서 한번 해볼까?',
+      chinese: {
+        hanzi: ['我', '说', '呀', '要不', '我们', '换', '个', '办法', '试试'],
+        pinyin: [
+          'wǒ',
+          'shuō',
+          'ya',
+          'yàobù',
+          'wǒmen',
+          'huàn',
+          'gè',
+          'bànfǎ',
+          'shìshi',
+        ],
+      },
+    },
+  ],
 };
 
 // 전역 변수로 내보내기

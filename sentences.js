@@ -1547,8 +1547,8 @@ const sentenceData = {
       korean:
         '상황은 네가 다 알고 있으니까, 알아서 처리해. (= 상황을 네가 다 알고 있으니까, 알아서 처리해.)',
       chinese: {
-        hanzi: ['情况', '你', '都', '知道', '看', '着', '办', '吧'],
-        pinyin: ['qíngkuàng', 'nǐ', 'dōu', 'zhīdao', 'kàn', 'zhe', 'bàn', 'ba'],
+        hanzi: ['情况', '你', '都', '知道', '看着', '办', '吧'],
+        pinyin: ['qíngkuàng', 'nǐ', 'dōu', 'zhīdao', 'kàn zhe', 'bàn', 'ba'],
       },
     },
     {
@@ -1592,8 +1592,8 @@ const sentenceData = {
       korean:
         '그만두려고 한다, 그냥 넘어가려고 한다. (※이땐 한국어로 “~하려고 한다”가 자연스러움)',
       chinese: {
-        hanzi: ['想', '算', '了'],
-        pinyin: ['xiǎng', 'suàn', 'le'],
+        hanzi: ['想算', '了'],
+        pinyin: ['xiǎng suàn', 'le'],
       },
     },
     {
@@ -1612,8 +1612,8 @@ const sentenceData = {
       isFinal: false,
       korean: '해결 안 하고 그냥 넘어가려고 해.',
       chinese: {
-        hanzi: ['没', '解决', '就', '想', '算', '了'],
-        pinyin: ['méi', 'jiějué', 'jiù', 'xiǎng', 'suàn', 'le'],
+        hanzi: ['没解决', '就', '想', '算', '了'],
+        pinyin: ['méi jiějué', 'jiù', 'xiǎng', 'suàn', 'le'],
       },
     },
     {
@@ -1655,8 +1655,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이게 아니야.',
       chinese: {
-        hanzi: ['不', '是', '这', '个'],
-        pinyin: ['bú', 'shì', 'zhè', 'ge'],
+        hanzi: ['不是', '这个'],
+        pinyin: ['bú shì', 'zhè ge'],
       },
     },
     {
@@ -1665,8 +1665,8 @@ const sentenceData = {
       isFinal: false,
       korean: '얘기하던 건 이게 아니야.',
       chinese: {
-        hanzi: ['讨论', '的', '不', '是', '这', '个'],
-        pinyin: ['tǎolùn', 'de', 'bú', 'shì', 'zhè', 'ge'],
+        hanzi: ['讨论的', '不是', '这个'],
+        pinyin: ['tǎolùn de', 'bú shì', 'zhè ge'],
       },
     },
     {
@@ -1675,8 +1675,8 @@ const sentenceData = {
       isFinal: false,
       korean: '우리가 얘기하던 건 이게 아니야(아니잖아).',
       chinese: {
-        hanzi: ['我们', '讨论', '的', '不', '是', '这', '个'],
-        pinyin: ['wǒmen', 'tǎolùn', 'de', 'bú', 'shì', 'zhè', 'ge'],
+        hanzi: ['我们', '讨论的', '不', '是', '这', '个'],
+        pinyin: ['wǒmen', 'tǎolùn de', 'bú', 'shì', 'zhè', 'ge'],
       },
     },
     {
@@ -1702,8 +1702,7 @@ const sentenceData = {
       id: 'sentence23',
       level: 5,
       isFinal: true,
-      korean: '솔직히 말해서, 나는 사실 별로 가고 싶지 않아.',
-      korean: '무슨 소리야, 우리가 얘기하던 건 이게 아니잖아.',
+      korean: '이게 무슨 소리야, 우리가 얘기하던 건 이게 아니잖아.',
       chinese: {
         hanzi: [
           '这',
@@ -1750,8 +1749,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이 정도 돈이 뭐라고.',
       chinese: {
-        hanzi: ['这', '点', '钱', '算', '什么', '钱'],
-        pinyin: ['zhè', 'diǎn', 'qián', 'suàn', 'shénme', 'qián'],
+        hanzi: ['这', '点', '钱', '算', '什么'],
+        pinyin: ['zhè', 'diǎn', 'qián', 'suàn', 'shénme'],
       },
     },
     {
@@ -1760,18 +1759,8 @@ const sentenceData = {
       isFinal: true,
       korean: '이 정도 돈이 뭐라고, 내가 쏠게.',
       chinese: {
-        hanzi: ['这', '点', '钱', '算', '什么', '钱', '我', '请', '客'],
-        pinyin: [
-          'zhè',
-          'diǎn',
-          'qián',
-          'suàn',
-          'shénme',
-          'qián',
-          'wǒ',
-          'qǐng',
-          'kè',
-        ],
+        hanzi: ['这', '点', '钱', '算', '什么', '我', '请', '客'],
+        pinyin: ['zhè', 'diǎn', 'qián', 'suàn', 'shénme', 'wǒ', 'qǐng', 'kè'],
       },
     },
     //25번
@@ -1791,8 +1780,8 @@ const sentenceData = {
       isFinal: false,
       korean: '예술을 할 재목',
       chinese: {
-        hanzi: ['搞', '艺术', '的', '料'],
-        pinyin: ['gǎo', 'yìshù', 'de', 'liào'],
+        hanzi: ['搞', '艺术', '的料'],
+        pinyin: ['gǎo', 'yìshù', 'de liào'],
       },
     },
     {
@@ -1801,8 +1790,8 @@ const sentenceData = {
       isFinal: false,
       korean: '예술 쪽에 어울리는 사람이 아니다.',
       chinese: {
-        hanzi: ['不', '是', '搞', '艺术', '的', '料'],
-        pinyin: ['bú', 'shì', 'gǎo', 'yìshù', 'de', 'liào'],
+        hanzi: ['不是', '搞', '艺术', '的', '料'],
+        pinyin: ['bú shì', 'gǎo', 'yìshù', 'de', 'liào'],
       },
     },
     {
@@ -1832,8 +1821,8 @@ const sentenceData = {
       isFinal: false,
       korean: '계속 미루는 건 방법이 아니야.',
       chinese: {
-        hanzi: ['拖', '下去', '不', '是', '办法'],
-        pinyin: ['tuō', 'xiàqù', 'bú', 'shì', 'bànfǎ'],
+        hanzi: ['拖下去', '不', '是', '办法'],
+        pinyin: ['tuō xiàqù', 'bú', 'shì', 'bànfǎ'],
       },
     },
     {
@@ -1873,8 +1862,8 @@ const sentenceData = {
       isFinal: false,
       korean: '나는 그럴 줄 알았어.',
       chinese: {
-        hanzi: ['我', '就', '知道'],
-        pinyin: ['wǒ', 'jiù', 'zhīdao'],
+        hanzi: ['我', '就知道'],
+        pinyin: ['wǒ', 'jiù zhīdao'],
       },
     },
     {
@@ -1893,8 +1882,8 @@ const sentenceData = {
       isFinal: false,
       korean: '나는 분명 성공할 줄 알았어.',
       chinese: {
-        hanzi: ['我', '就', '知道', '一定', '会', '成功'],
-        pinyin: ['wǒ', 'jiù', 'zhīdao', 'yídìng', 'huì', 'chénggōng'],
+        hanzi: ['我', '就', '知道', '一定会', '成功'],
+        pinyin: ['wǒ', 'jiù', 'zhīdao', 'yídìng huì', 'chénggōng'],
       },
     },
     {
@@ -2000,7 +1989,7 @@ const sentenceData = {
       korean: '방법을 바꾸다.',
       chinese: {
         hanzi: ['换', '个', '办法'],
-        pinyin: ['huàn', 'gè', 'bànfǎ'],
+        pinyin: ['huàn', 'ge', 'bànfǎ'],
       },
     },
     {
@@ -2010,7 +1999,7 @@ const sentenceData = {
       korean: '방법을 바꿔서 한번 해보다.',
       chinese: {
         hanzi: ['换', '个', '办法', '试试'],
-        pinyin: ['huàn', 'gè', 'bànfǎ', 'shìshi'],
+        pinyin: ['huàn', 'ge', 'bànfǎ', 'shìshi'],
       },
     },
     {
@@ -2020,7 +2009,7 @@ const sentenceData = {
       korean: '우리 방법을 바꿔서 한번 해보자.',
       chinese: {
         hanzi: ['我们', '换', '个', '办法', '试试'],
-        pinyin: ['wǒmen', 'huàn', 'gè', 'bànfǎ', 'shìshi'],
+        pinyin: ['wǒmen', 'huàn', 'ge', 'bànfǎ', 'shìshi'],
       },
     },
 
@@ -2031,7 +2020,7 @@ const sentenceData = {
       korean: '아니면 우리 방법을 바꿔서 한번 해볼까?',
       chinese: {
         hanzi: ['要不', '我们', '换', '个', '办法', '试试'],
-        pinyin: ['yàobù', 'wǒmen', 'huàn', 'gè', 'bànfǎ', 'shìshi'],
+        pinyin: ['yàobù', 'wǒmen', 'huàn', 'ge', 'bànfǎ', 'shìshi'],
       },
     },
     {
@@ -2048,7 +2037,7 @@ const sentenceData = {
           'yàobù',
           'wǒmen',
           'huàn',
-          'gè',
+          'ge',
           'bànfǎ',
           'shìshi',
         ],
